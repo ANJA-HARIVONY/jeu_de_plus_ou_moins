@@ -4,7 +4,7 @@ use std::cmp::Ordering;
 fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..101);
-    let mut attempts = 0;
+    let mut attempts = 1;
 
     println!("Devinez le nombre !");
     //println!("Le nombre secret est : {}", secret_number);
