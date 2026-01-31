@@ -11,15 +11,29 @@ Un jeu de devinette en Rust : trouvez le nombre secret entre 1 et 100.
 
 ## Prérequis
 
+- [Git](https://git-scm.com/)
 - [Rust](https://www.rust-lang.org/) (rustc, cargo)
 
-## Installation et exécution
+## Cloner le projet
 
 ```bash
-# Cloner le dépôt (ou se placer dans le dossier du projet)
+# Cloner le dépôt (remplacez par l’URL de votre dépôt GitHub)
+git clone https://github.com/VOTRE_UTILISATEUR/jeu_de_plus_ou_moins.git
+
+# Entrer dans le dossier du projet
 cd jeu_de_plus_ou_moins
 
-# Lancer le jeu
+# Télécharger les dépendances et lancer le jeu
+cargo run
+```
+
+Pour **compiler** sans lancer le jeu : `cargo build`. L’exécutable sera dans `target/debug/jeu_de_plus_ou_moins` (ou `jeu_de_plus_ou_moins.exe` sous Windows).
+
+## Lancer le jeu
+
+Depuis le dossier du projet :
+
+```bash
 cargo run
 ```
 
