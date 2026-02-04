@@ -34,7 +34,9 @@ fn main() {
             break;
             }
         }
+        println!("Essai nº {}", attempts);
         attempts += 1;
+       
     }
 
 }
